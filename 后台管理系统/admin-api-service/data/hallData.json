@@ -1,0 +1,103 @@
+{
+  "goodsAbout":[
+    {
+      "title": "刚柔并济，个性牛仔裙减龄试穿",
+      "media": "女神时尚课堂",
+      "scan": "1053",
+      "pic": "../../../static/images/yi-list1.png",
+      "num": "16"
+    },
+    {
+      "title": "沐浴露用的好，连香水都会吃醋",
+      "media": "搭酱",
+      "scan": "2022",
+      "pic": "../../../static/images/yi-list2.png",
+      "num": "3"
+    },
+    {
+      "title": "刚柔并济，个性牛仔裙减龄试穿",
+      "media": "女神时尚课堂",
+      "scan": "1053",
+      "pic": "../../../static/images/yi-list1.png",
+      "num": "16"
+    },
+    {
+      "title": "团聚美味饮食集，热场解馋进行",
+      "media": "呱呱传媒",
+      "scan": "1311",
+      "pic": "../../../static/images/yi-list3.png",
+      "num": "18"
+    },
+    {
+      "title": "沐浴露用的好，连香水都会吃醋",
+      "media": "搭酱",
+      "scan": "2022",
+      "pic": "../../../static/images/yi-list2.png",
+      "num": "3"
+    }
+  ],
+  "video": [
+    {
+      "title": "一抹就惊艳，受欢迎唇膏排行榜",
+      "pic": "../../../static/images/yi-video2.png",
+      "media": "壹个东西",
+      "scan": "1092"
+    },
+    {
+      "title": "抖音同款只能化妆灯台式镜子 好像很火呀",
+      "pic": "../../../static/images/yi-video1.png",
+      "media": "搭酱",
+      "scan": "425"
+    },
+    {
+      "title": "一抹就惊艳，受欢迎唇膏排行榜",
+      "pic": "../../../static/images/yi-video2.png",
+      "media": "壹个东西",
+      "scan": "1092"
+    },
+    {
+      "title": "抖音同款只能化妆灯台式镜子 好像很火呀",
+      "pic": "../../../static/images/yi-video1.png",
+      "media": "搭酱",
+      "scan": "425"
+    }
+  ],
+  "goods": [
+      {
+          "title": "团聚美味饮食集，热场减馋尽兴",
+          "pic1": "../../../static/images/yi-product1.png",
+          "pic2": "../../../static/images/yi-product2.png",
+          "pic3": "../../../static/images/yi-product3.png",
+          "media": "壹个东西",
+          "scan": "345",
+          "num": "16"
+      },
+      {
+        "title": "刚柔并济，个性牛仔裙减龄试穿",
+        "pic1": "../../../static/images/yi-product4.png",
+        "pic2": "../../../static/images/yi-product5.png",
+        "pic3": "../../../static/images/yi-product6.png",
+        "media": "女神时尚课堂",
+        "scan": "666",
+        "num": "16"
+      },
+    {
+      "title": "团聚美味饮食集，热场减馋尽兴",
+      "pic1": "../../../static/images/yi-product1.png",
+      "pic2": "../../../static/images/yi-product2.png",
+      "pic3": "../../../static/images/yi-product3.png",
+      "media": "壹个东西",
+      "scan": "345",
+      "num": "16"
+    },
+    {
+      "title": "刚柔并济，个性牛仔裙减龄试穿",
+      "pic1": "../../../static/images/yi-product4.png",
+      "pic2": "../../../static/images/yi-product5.png",
+      "pic3": "../../../static/images/yi-product6.png",
+      "media": "女神时尚课堂",
+      "scan": "666",
+      "num": "16"
+    }
+  ]
+}
