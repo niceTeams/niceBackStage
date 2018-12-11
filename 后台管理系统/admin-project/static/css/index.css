@@ -1,0 +1,517 @@
+body,h1,h2,h3,h4,h5,h6,p,a,img,ul,li,ol,dl,dt,dd,input{ padding:0; margin:0}
+ul,ol{ list-style:none;}
+input{ outline:none;}
+img{ display:block; border:0;}
+body{ font-size:12px; color:#555; background: #ebeff2;height: 100%;
+    overflow: hidden; padding-top: 51px;}
+a{ font-size:12px;text-decoration:none; color:#6c6c6c;}
+/*.w{ width:1390px; margin: 0 auto;}*/
+.l{ float:left;}
+.r{ float:right}
+*{ box-sizing:border-box;}
+/*============================header======================*/
+#header{
+    border-top: 3px solid #71b6f9;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    transform: translate3d(0, 0, 0);
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    color: #666;
+    display: flex;
+}
+#header  .left1{
+    background: #ffffff;
+    float: left;
+    text-align: center;
+    height: 73px;
+    position: relative;
+    width: 312px;
+    z-index: 1;
+}
+#header  .left1 a{
+    line-height: 70px;
+    color: #188ae2;
+    font-size: 32px;
+}
+#header  .right1{
+    overflow: hidden;
+    background: #ebeff2;
+    flex: 1;
+}
+#header  .right1 h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 70px;
+    margin-left: 44px;
+}
+#header  .right1>div{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+#header  .right1>div>span{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    display: inline-block;
+    background: url("../image/ling.png") no-repeat;
+}
+#header  .right1>div>form{
+    position: relative;
+}
+#header  .right1>div>form input.l{
+    border: 1px solid rgba(152, 166, 173, 0.15);
+    font-size: 13px;
+    height: 34px;
+    color: #435966;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin-left: 20px;
+    background: rgba(152, 166, 173, 0.1);
+    box-shadow: none;
+    border-radius: 30px;
+    width: 190px;
+}
+#header   .right1>div>form a.r{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    position: absolute;
+    margin: 4px auto 0;
+    top: 3px;
+    right: 20px;
+    color: rgba(152, 166, 173, 0.7);
+    background: url("../image/search.png") no-repeat;
+}
+/*======================================admin====================*/
+#admin{
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+#admin .sides{
+    height: 100%;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 25px;
+    width: 313px;
+    border-right: 1px solid #cecece;
+}
+#admin .sides .up{
+    text-align: center;
+    padding: 30px 0px 40px 0px;
+    background: #fff;
+}
+#admin .sides .up>div{
+    position: relative;
+    height: 88px;
+    width: 88px;
+    margin: 0px auto;
+}
+#admin .sides .up>div img{
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+#admin .sides .up h5{
+    margin: 10px auto;
+}
+#admin .sides .up h5 a{
+    color: #98a6ad;
+    font-size: 16px;
+}
+#admin .sides .up ul{
+    padding-left: 0;
+    margin-left: -5px;
+}
+#admin .sides .up ul li{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+#admin .sides .up ul li span{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+
+}
+#admin .sides .up ul li:nth-child(1) span{
+    background: url("../image/hua1.png") no-repeat;
+}
+#admin .sides .up ul li:nth-child(2) span{
+    background: url("../image/hua2.png") no-repeat;
+}
+#admin .sides .downb{
+    padding-bottom: 26px;
+}
+#admin .sides .downb li{
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-top: 1px solid #dedede;
+    border-width: 1px 0;
+}
+#admin .sides .downb>li:nth-child(1){
+    border-top: 0;
+}
+#admin .sides .downb li a{
+    color: #5c5c5c;
+    padding: 14px 0;
+    padding-left: 24px;
+    display: block;
+    font-size: 18px;
+
+}
+#admin .sides .downb>li.xiao  a  .xisp{
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url("../image/h1.png") no-repeat left center;
+    background-size: 22px auto;
+}
+#admin .sides .downb>li a  .ge{
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url("../image/h2.png") no-repeat left center;
+    background-size: 22px auto;
+}
+#admin .sides .downb>li a  .ji{
+    width: 23px;
+    height: 23px;
+    margin-right: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url("../image/h3.png") no-repeat left center;
+    background-size: 23px auto;
+}
+#admin .sides .downb>li a  .dan{
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    vertical-align: middle;
+    display: inline-block;
+    background: url("../image/h4.png") no-repeat left center;
+    background-size: 22px auto;
+}
+#admin .sides .downb li ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 16px 8px -15px #e2e2e2 inset;
+    background: #ececec;
+    padding-left: 24px;
+}
+#admin .sides .downb li ul li{
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-width: 1px 0;
+}
+#admin .sides .downb li a.jian{
+    background:url("../image/jian.png") no-repeat 260px;
+    background-size: 9px auto;
+}
+
+
+
+
+
+
+
+#admin .content{
+    overflow: auto;
+    margin-top: 30px;
+    flex: 1 1 0%;
+
+}
+#admin .content .tocons{
+    padding: 0px 10px;
+}
+#admin .content .tocons .minbox{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+#admin .content .tocons .minbox .car{
+    padding: 27px;
+    width: 25%;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    background-clip: padding-box;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+#admin .content .tocons .minbox  .spe{
+    margin-bottom: 90px;
+}
+#admin .content .tocons .minbox .car h4{
+    margin-bottom: 30px !important;
+    font-size: 18px;
+    line-height: 18px;
+}
+#admin .content .tocons .minbox .car .center1{
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+}
+#admin .content .tocons .minbox .car .center1>img{
+    height: 100%;
+    width: 100%;
+    background-size: 90px auto;
+}
+#admin .content .tocons .minbox .car .down1{
+    text-align: right;
+    margin-top: 16px;
+    margin-left: 80px;
+    min-height: 77px;
+}
+#admin .content .tocons .minbox .car .down1 h2{
+    line-height: 35px;
+    padding-top: 10px;
+    font-size: 22px;
+}
+#admin .content .tocons .minbox .car .down1 p{
+    line-height: 1.2;
+    margin: 20px 0;
+}
+#admin .content .tocons .minbox .car .ercen{
+    text-align: right;
+    margin-left: 0;
+}
+#admin .content .tocons .minbox .car .ercen span{
+    padding: 5px 12px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    background: #0e90d2;
+}
+#admin .content .tocons .minbox .car .ercen span.fen{
+    background: #ff8acc;
+}
+#admin .content .tocons .minbox .car .ercen h2{
+    line-height: 35px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+#admin .content .tocons .minbox .car .ercen p{
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+#admin .content .tocons .minbox .car .ercen img{
+    margin-left: 0;
+    width: 100%;
+    background-size: 200px auto;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#admin .content .tocons .minbox .biao{
+    width: 29.8%;
+    background: #fff;
+    padding: 18px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    background-clip: padding-box;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+#admin .content .tocons .minbox .biao h4{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 8px;
+}
+#admin .content .tocons .minbox .biao >div{
+    margin-top: 5px;
+    width:241px;
+    height: 300px;
+}
+#admin .content .tocons .minbox .men{
+    padding: 19px;
+    width: 21.4%;
+    min-height: 112px;
+    margin-right: 12px;
+    margin-left: 20px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    background-clip: padding-box;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+#admin .content .tocons .minbox .men>img{
+    height: 73px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+#admin .content .tocons .minbox .men>div{
+   width:80px;
+}
+#admin .content .tocons .minbox .men>div h4{
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5px;
+    line-height: 22px;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    font-weight: 600
+}
+#admin .content .tocons .minbox .men>div p{
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    margin: 15px 0;
+    margin-bottom: 5px;
+    font-size: 13px;
+    line-height: 1.6;
+    text-overflow: ellipsis;
+}
+#admin .content .tocons .minbox .men>div span{
+    color: #f9c851 !important;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+#admin .content .tocons .minbox .left2{
+    width: 33.33333333%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    background-clip: padding-box;
+    margin-left:  20px;
+    margin-bottom: 118px;
+
+}
+#admin .content .tocons .minbox .left2 h4{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+#admin .content .tocons .minbox .left2 .downs {
+    height: 315px;
+    overflow: hidden;
+}
+#admin .content .tocons .minbox .left2 .downs dl{
+    border-bottom: 1px solid #f3f3f3;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
+}
+#admin .content .tocons .minbox .left2 .downs dl dt{
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 42px;
+}
+#admin .content .tocons .minbox .left2 .downs dl dt img{
+    width: 42px;
+    border-radius: 50%;
+}
+#admin .content .tocons .minbox .left2 .downs dl dd p:nth-child(1){
+    color: #333333;
+    line-height: 1.6;
+    font-size: 15px;
+}
+#admin .content .tocons .minbox .left2 .downs dl dd p:nth-child(2){
+    line-height: 1.6;
+}
+#admin .content .tocons .minbox .left2 .downs dl dd>span{
+    color: #98a6ad;
+    font-size: 11px;
+    position: absolute;
+    right: 7px;
+    top: 15px;
+}
+
+#admin .content .tocons .minbox .right2{
+    width: 66.66666667%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    margin: 0 20px;
+    background-clip: padding-box;
+    margin-bottom: 20px;
+}
+#admin .content .tocons .minbox .right2 h4{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+#admin .content .tocons .minbox .right2>div{
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+#admin .content .tocons .minbox .right2>div table{
+    white-space: nowrap;
+    width: 100%;
+    border-spacing: 0;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    empty-cells: show;
+    border-collapse: separate;
+}
+#admin .content .tocons .minbox .right2>div table thead tr th{
+    vertical-align: bottom;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 18px;
+    color: #666666;
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: left;
+}
+#admin .content .tocons .minbox .right2>div table tbody{
+    color: #797979;
+}
+#admin .content .tocons .minbox .right2>div table tbody tr td{
+    padding: 11px;
+    line-height: 1.6;
+    font-size: 17px;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+#admin .content .tocons .minbox .right2>div table tbody tr td.wu span{
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding: .3em .6em .3em;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #ff5b5b;
+}
+
+
+
+
+
+
